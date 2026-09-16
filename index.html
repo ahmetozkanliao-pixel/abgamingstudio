@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="tr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AB Gaming Studios — Yeni Nesil Oyunlar</title><meta name="description" content="AB Gaming Studios; kolay öğrenilen, güçlü rekabet hissi yaratan ve tekrar tekrar oynanan dijital oyunlar geliştirir."><meta name="theme-color" content="#07090b"><link rel="icon" href="favicon.png?v=5"><link rel="stylesheet" href="assets/styles.css?v=hero4"><link rel="stylesheet" href="assets/hero.css?v=3"><script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"}}</script></head>
+<html lang="tr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AB Gaming Studios — Yeni Nesil Oyunlar</title><meta name="description" content="AB Gaming Studios; kolay öğrenilen, güçlü rekabet hissi yaratan ve tekrar tekrar oynanan dijital oyunlar geliştirir."><meta name="theme-color" content="#07090b"><link rel="icon" href="favicon.png?v=5"><link rel="stylesheet" href="assets/styles.css?v=hero4"><link rel="stylesheet" href="assets/hero.css?v=4"><script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"}}</script></head>
 <body>
 <main>
 <section class="ab-hero" id="abHero" aria-label="AB Gaming Studios">
@@ -10,17 +10,21 @@
 
   <header class="ab-hero__topbar">
     <a class="ab-hero__brand" href="./"><img class="brand-logo" src="assets/logo.png?v=6" alt="AB Gaming Studios"></a>
-    <div class="ab-hero__location"><i></i>İstanbul’dan dünyaya</div>
+    <div class="ab-hero__lang" role="group" aria-label="Dil seçimi">
+      <button type="button" class="ab-lang is-active" data-lang="tr" aria-pressed="true">TR</button>
+      <span aria-hidden="true">/</span>
+      <button type="button" class="ab-lang" data-lang="en" aria-pressed="false">ENG</button>
+    </div>
   </header>
 
   <div class="coordinate coordinate--left">41.0082° N</div>
   <div class="coordinate coordinate--right">28.9784° E</div>
 
   <section class="ab-copy ab-copy--left">
-    <div class="ab-eyebrow"><span>INDEPENDENT GAME STUDIO</span><b></b></div>
-    <h1 class="ab-title">WE<br>CREATE<span>.</span></h1>
-    <p>Games made for competition,<br>connection and pure fun.</p>
-    <div class="ab-keywords"><i></i><span>PLAY</span><span>BUILD</span><span>COMPETE</span><span>TOGETHER</span></div>
+    <div class="ab-eyebrow"><span data-i18n="eyebrow">BAĞIMSIZ OYUN STÜDYOSU</span><b></b></div>
+    <h1 class="ab-title" data-i18n-html="title">BİZ<br>YARATIRIZ<span>.</span></h1>
+    <p data-i18n-html="lead">Rekabet, bağ kurmak<br>ve saf eğlence için oyunlar.</p>
+    <div class="ab-keywords"><i></i><span data-i18n="k1">OYNA</span><span data-i18n="k2">KUR</span><span data-i18n="k3">REKABET ET</span><span data-i18n="k4">BİRLİKTE</span></div>
   </section>
 
   <section class="arcade-stage" aria-label="3 boyutlu atari makinesi">
@@ -29,15 +33,15 @@
   </section>
 
   <section class="ab-copy ab-copy--right">
-    <h2 class="ab-title-sm">YOU PLAY<span>.</span></h2>
+    <h2 class="ab-title-sm" data-i18n-html="play">SEN OYNA<span>.</span></h2>
     <div class="ab-game">
-      <div class="ab-game__index"><strong>01</strong><i></i><span>OUR FIRST GAME</span></div>
+      <div class="ab-game__index"><strong>01</strong><i></i><span data-i18n="first">İLK OYUNUMUZ</span></div>
       <h3>3·2·1&nbsp;&nbsp;THE ARENA</h3>
       <b class="ab-game__line"></b>
       <div class="ab-platforms"><span>WEB</span><i>·</i><span>iOS</span><i>·</i><span>ANDROID</span></div>
     </div>
   </section>
-  <div class="ab-manifesto"><i></i><span>GOOD GAMES<br>BRIGHTER PEOPLE</span></div>
+  <div class="ab-manifesto"><i></i><span data-i18n-html="manifesto">İYİ OYUNLAR<br>DAHA PARLAK İNSANLAR</span></div>
 
   <svg class="connector connector--left" viewBox="0 0 360 100" preserveAspectRatio="none" aria-hidden="true">
     <path d="M0 15 H245 L330 85 H360"></path>
@@ -64,6 +68,6 @@
 </main>
 <nav class="dock" id="dock" aria-label="Ana menü"></nav><footer class="shell">© <span id="year"></span> AB Gaming Studios. Tüm hakları saklıdır.</footer>
 <script src="assets/site.js?v=https1"></script>
-<script src="assets/hero.js?v=1"></script>
+<script src="assets/hero.js?v=2"></script>
 <script type="module" src="assets/arcade.js?v=30"></script>
 </body></html>

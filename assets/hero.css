@@ -35,8 +35,12 @@
 }
 .ab-hero__brand{display:flex;align-items:center;text-decoration:none;color:#fff}
 .ab-hero__brand .brand-logo{height:44px;width:auto;max-width:min(280px,55vw);object-fit:contain}
-.ab-hero__location{color:#b8bcc1;font-size:14px;display:flex;align-items:center;gap:12px}
-.ab-hero__location i{width:9px;height:9px;background:var(--ab-lime);border-radius:50%;box-shadow:0 0 16px var(--ab-lime)}
+.ab-hero__lang{display:flex;align-items:center;gap:10px;color:#7a8088;font:600 13px/1 Inter,'DM Sans',sans-serif;letter-spacing:.14em}
+.ab-hero__lang span{opacity:.55}
+.ab-lang{appearance:none;border:0;background:transparent;color:#7a8088;font:inherit;letter-spacing:inherit;cursor:pointer;padding:4px 0;transition:color .2s}
+.ab-lang:hover{color:#d2d6db}
+.ab-lang.is-active{color:var(--ab-lime);text-shadow:0 0 12px rgba(217,255,67,.35)}
+.ab-lang:focus-visible{outline:1px solid var(--ab-lime);outline-offset:4px}
 
 .ab-hero .ab-copy{position:absolute;z-index:6}
 .ab-hero .ab-copy--left{left:10.5%;top:25%;width:28%}
@@ -123,10 +127,11 @@
   .ab-hero .outline-letter--a{left:8%}
   .ab-hero .outline-letter--b{right:8%}
   .ab-hero__brand .brand-logo{height:36px}
+  .ab-hero__lang{font-size:12px;gap:8px}
 }
 @media(max-width:560px){
   .ab-hero{min-height:1050px}
-  .ab-hero__location{font-size:11px}
+  .ab-hero__lang{font-size:11px}
   .ab-hero .ab-copy--left{top:14%}
   .ab-hero .ab-title{font-size:82px}
   .ab-hero .arcade-stage{left:8%;width:84%;top:37%;height:43%}
