@@ -45,7 +45,6 @@
 .ab-hero .ab-copy{position:absolute;z-index:6}
 .ab-hero .ab-copy--left{left:10.5%;top:25%;width:28%}
 .ab-hero .ab-eyebrow{display:flex;align-items:center;gap:18px;margin:0 0 18px;color:var(--ab-lime);font-size:10px;font-weight:600;letter-spacing:5px;white-space:nowrap;text-transform:uppercase}
-.ab-hero .ab-eyebrow b{height:1px;background:var(--ab-lime);width:75px;flex:0 0 auto}
 .ab-hero .ab-title,
 .ab-hero .ab-title-sm{
   font-family:'Barlow Condensed', 'Space Grotesk', sans-serif;
