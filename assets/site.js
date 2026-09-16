@@ -31,6 +31,7 @@ const I18N = {
 
     hero_eyebrow: "BAĞIMSIZ OYUN STÜDYOSU",
     hero_title: "BİZ<br>YAPA-<br>RIZ<span>.</span>",
+    hero_title_mob: "BİZ YAPARIZ<span>.</span>",
     hero_lead: "Rekabet, bağ kurmak<br>ve saf eğlence için oyunlar.",
     hero_k1: "OYNA",
     hero_k2: "KUR",
@@ -139,6 +140,7 @@ const I18N = {
 
     hero_eyebrow: "INDEPENDENT GAME STUDIO",
     hero_title: "WE<br>CREATE<span>.</span>",
+    hero_title_mob: "WE CREATE<span>.</span>",
     hero_lead: "Games made for competition,<br>connection and pure fun.",
     hero_k1: "PLAY",
     hero_k2: "BUILD",
