@@ -34,7 +34,7 @@
   display:flex;justify-content:space-between;align-items:center;
 }
 .ab-hero__brand{display:flex;align-items:center;text-decoration:none;color:#fff}
-.ab-hero__brand .brand-logo{height:44px;width:auto;max-width:min(280px,55vw);object-fit:contain}
+.ab-hero__brand .brand-logo{height:56px;width:auto;max-width:min(340px,62vw);object-fit:contain}
 .ab-hero__lang{display:flex;align-items:center;gap:10px;color:#7a8088;font:600 13px/1 Inter,'DM Sans',sans-serif;letter-spacing:.14em}
 .ab-hero__lang span{opacity:.55}
 .ab-lang{appearance:none;border:0;background:transparent;color:#7a8088;font:inherit;letter-spacing:inherit;cursor:pointer;padding:4px 0;transition:color .2s}
@@ -126,7 +126,7 @@
   .ab-hero .outline-letter{font-size:62vh;opacity:.65;top:4%}
   .ab-hero .outline-letter--a{left:8%}
   .ab-hero .outline-letter--b{right:8%}
-  .ab-hero__brand .brand-logo{height:36px}
+  .ab-hero__brand .brand-logo{height:46px}
   .ab-hero__lang{font-size:12px;gap:8px}
 }
 @media(max-width:560px){
