@@ -112,16 +112,31 @@
 @media(max-width:900px){
   .ab-hero{min-height:1100px}
   .ab-hero__topbar{left:6%;right:6%}
-  .ab-hero .ab-copy--left{left:6%;top:15%;width:88%}
+  .ab-hero .ab-copy--left{left:6%;top:13%;width:88%}
   .ab-hero .ab-eyebrow{font-size:8px}
   .ab-hero .ab-title{font-size:clamp(48px,14vw,100px);white-space:nowrap}
   .ab-hero .ab-title__desk{display:none}
   .ab-hero .ab-title__mob{display:block}
-  .ab-hero .ab-copy--left p{font-size:14px}
-  .ab-hero .arcade-stage{left:20%;top:39%;width:60%;height:42%}
-  .ab-hero .ab-copy--right{left:6%;top:78%;width:88%}
-  .ab-hero .ab-title-sm{font-size:76px}
-  .ab-hero .ab-game{position:absolute;left:55%;top:0;margin:0}
+  .ab-hero .ab-copy--left p{font-size:14px;max-width:90%;margin-top:min(16vh,130px)}
+  .ab-hero .arcade-stage{left:10%;top:48%;width:80%;height:40%}
+  .ab-hero .ab-copy--right{
+    left:auto;
+    right:6%;
+    top:22%;
+    width:auto;
+    max-width:88%;
+    text-align:right;
+  }
+  .ab-hero .ab-title-sm{font-size:clamp(42px,12vw,68px);white-space:nowrap}
+  .ab-hero .ab-game{
+    position:static;
+    margin:14px 0 0;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-end;
+  }
+  .ab-hero .ab-game__index{justify-content:flex-end}
+  .ab-hero .ab-platforms{justify-content:flex-end}
   .ab-hero .ab-keywords,
   .ab-hero .ab-manifesto,
   .ab-hero .connector,
@@ -133,15 +148,15 @@
   .ab-hero__lang{font-size:12px;gap:8px}
 }
 @media(max-width:560px){
-  .ab-hero{min-height:1050px}
+  .ab-hero{min-height:1080px}
   .ab-hero__lang{font-size:11px}
-  .ab-hero .ab-copy--left{top:14%}
+  .ab-hero .ab-copy--left{top:12%}
   .ab-hero .ab-title{font-size:clamp(40px,12.5vw,82px)}
-  .ab-hero .arcade-stage{left:8%;width:84%;top:37%;height:43%}
-  .ab-hero .ab-copy--right{top:80%}
-  .ab-hero .ab-title-sm{font-size:64px}
-  .ab-hero .ab-game{position:static;margin:22px 0 0}
-  .ab-hero .ab-game h3{font-size:22px;white-space:normal}
+  .ab-hero .ab-copy--right{top:20%;right:5%}
+  .ab-hero .ab-title-sm{font-size:clamp(36px,11vw,56px)}
+  .ab-hero .arcade-stage{left:6%;width:88%;top:50%;height:38%}
+  .ab-hero .ab-game{margin:12px 0 0}
+  .ab-hero .ab-game h3{font-size:20px;white-space:normal;text-align:right}
 }
 @media(prefers-reduced-motion:reduce){
   .ab-hero .arcade-mount{transition:none}
