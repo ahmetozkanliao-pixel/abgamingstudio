@@ -1,6 +1,6 @@
 <!doctype html>
-<html lang="tr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AB Gaming Studios — Yeni Nesil Oyunlar</title><meta name="description" content="AB Gaming Studios; kolay öğrenilen, güçlü rekabet hissi yaratan ve tekrar tekrar oynanan dijital oyunlar geliştirir."><meta name="theme-color" content="#07090b"><link rel="icon" href="favicon.png?v=5"><link rel="stylesheet" href="assets/styles.css?v=hero4"><link rel="stylesheet" href="assets/hero.css?v=7"><script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"}}</script></head>
-<body>
+<html lang="tr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AB Gaming Studios — Yeni Nesil Oyunlar</title><meta name="description" content="AB Gaming Studios; kolay öğrenilen, güçlü rekabet hissi yaratan ve tekrar tekrar oynanan dijital oyunlar geliştirir."><meta name="theme-color" content="#07090b"><link rel="icon" href="favicon.png?v=5"><link rel="stylesheet" href="assets/styles.css?v=i18n1"><link rel="stylesheet" href="assets/hero.css?v=8"><script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"}}</script></head>
+<body data-page="home">
 <main>
 <section class="ab-hero" id="abHero" aria-label="AB Gaming Studios">
   <div class="ab-hero__grid" aria-hidden="true"></div>
@@ -10,7 +10,7 @@
 
   <header class="ab-hero__topbar">
     <a class="ab-hero__brand" href="./"><img class="brand-logo" src="assets/logo.png?v=6" alt="AB Gaming Studios"></a>
-    <div class="ab-hero__lang" role="group" aria-label="Dil seçimi">
+    <div class="ab-hero__lang lang-switch" role="group" data-i18n-aria="lang_aria" aria-label="Dil seçimi">
       <button type="button" class="ab-lang is-active" data-lang="tr" aria-pressed="true">TR</button>
       <span aria-hidden="true">/</span>
       <button type="button" class="ab-lang" data-lang="en" aria-pressed="false">ENG</button>
@@ -21,27 +21,27 @@
   <div class="coordinate coordinate--right">28.9784° E</div>
 
   <section class="ab-copy ab-copy--left">
-    <div class="ab-eyebrow"><span data-i18n="eyebrow">BAĞIMSIZ OYUN STÜDYOSU</span></div>
-    <h1 class="ab-title" data-i18n-html="title">BİZ<br>YAPA-<br>RIZ<span>.</span></h1>
-    <p data-i18n-html="lead">Rekabet, bağ kurmak<br>ve saf eğlence için oyunlar.</p>
-    <div class="ab-keywords"><i></i><span data-i18n="k1">OYNA</span><span data-i18n="k2">KUR</span><span data-i18n="k3">REKABET ET</span><span data-i18n="k4">BİRLİKTE</span></div>
+    <div class="ab-eyebrow"><span data-i18n="hero_eyebrow">BAĞIMSIZ OYUN STÜDYOSU</span></div>
+    <h1 class="ab-title" data-i18n-html="hero_title">BİZ<br>YAPA-<br>RIZ<span>.</span></h1>
+    <p data-i18n-html="hero_lead">Rekabet, bağ kurmak<br>ve saf eğlence için oyunlar.</p>
+    <div class="ab-keywords"><i></i><span data-i18n="hero_k1">OYNA</span><span data-i18n="hero_k2">KUR</span><span data-i18n="hero_k3">REKABET ET</span><span data-i18n="hero_k4">BİRLİKTE</span></div>
   </section>
 
-  <section class="arcade-stage" aria-label="3 boyutlu atari makinesi">
+  <section class="arcade-stage" data-i18n-aria="hero_arcade" aria-label="3 boyutlu atari makinesi">
     <div class="arcade-aura" aria-hidden="true"></div>
     <div id="arcadeMount" class="arcade-mount arcade-view"></div>
   </section>
 
   <section class="ab-copy ab-copy--right">
-    <h2 class="ab-title-sm" data-i18n-html="play">SEN OYNA<span>.</span></h2>
+    <h2 class="ab-title-sm" data-i18n-html="hero_play">SEN OYNA<span>.</span></h2>
     <div class="ab-game">
-      <div class="ab-game__index"><strong>01</strong><i></i><span data-i18n="first">İLK OYUNUMUZ</span></div>
+      <div class="ab-game__index"><strong>01</strong><i></i><span data-i18n="hero_first">İLK OYUNUMUZ</span></div>
       <h3>3·2·1&nbsp;&nbsp;THE ARENA</h3>
       <b class="ab-game__line"></b>
       <div class="ab-platforms"><span>WEB</span><i>·</i><span>iOS</span><i>·</i><span>ANDROID</span></div>
     </div>
   </section>
-  <div class="ab-manifesto"><i></i><span data-i18n-html="manifesto">İYİ OYUNLAR<br>DAHA PARLAK İNSANLAR</span></div>
+  <div class="ab-manifesto"><i></i><span data-i18n-html="hero_manifesto">İYİ OYUNLAR<br>DAHA PARLAK İNSANLAR</span></div>
 
   <svg class="connector connector--left" viewBox="0 0 360 100" preserveAspectRatio="none" aria-hidden="true">
     <path d="M0 15 H245 L330 85 H360"></path>
@@ -58,16 +58,17 @@
 </section>
 
 <section class="section shell home-game">
-  <div class="section-head"><div><div class="eyebrow">İlk oyunumuz</div><h2>3‑2‑1</h2></div><p>Futbol bilgisi, hız ve bire bir rekabet aynı oyunda. Web tarayıcı, App Store ve Google Play için geliştiriliyor.</p></div>
-  <div class="game-showcase"><div class="game-mini"><div class="score"><span>OYUNCU 1</span><span>OYUNCU 2</span></div><div class="timer">03</div><div class="question">Cevabın hazır mı?</div></div><div class="game-showcase-copy"><div class="eyebrow">1v1 futbol bilgi oyunu</div><h3>Bilgine güveniyorsan, rakibini çağır.</h3><p class="muted">Aynı anda gelen sorular, saniyeler içinde verilen cevaplar ve maç sonuna kadar değişen skor.</p><div class="actions"><a class="btn primary" href="oyunlar/">3‑2‑1'i İncele →</a><span class="platform-inline">WEB · iOS · ANDROID</span></div></div></div>
+  <div class="section-head"><div><div class="eyebrow" data-i18n="home_game_eyebrow">İlk oyunumuz</div><h2>3‑2‑1</h2></div><p data-i18n="home_game_p">Futbol bilgisi, hız ve bire bir rekabet aynı oyunda. Web tarayıcı, App Store ve Google Play için geliştiriliyor.</p></div>
+  <div class="game-showcase"><div class="game-mini"><div class="score"><span data-i18n="home_p1">OYUNCU 1</span><span data-i18n="home_p2">OYUNCU 2</span></div><div class="timer">03</div><div class="question" data-i18n="home_q">Cevabın hazır mı?</div></div><div class="game-showcase-copy"><div class="eyebrow" data-i18n="home_show_eyebrow">1v1 futbol bilgi oyunu</div><h3 data-i18n="home_show_h3">Bilgine güveniyorsan, rakibini çağır.</h3><p class="muted" data-i18n="home_show_p">Aynı anda gelen sorular, saniyeler içinde verilen cevaplar ve maç sonuna kadar değişen skor.</p><div class="actions"><a class="btn primary" href="oyunlar/" data-i18n="home_cta">3‑2‑1'i İncele →</a><span class="platform-inline">WEB · iOS · ANDROID</span></div></div></div>
 </section>
 <section class="section shell">
-  <div class="section-head"><div><div class="eyebrow">Bizim oyun anlayışımız</div><h2>Fikirden<br>rekabete.</h2></div><p>Oyuncuyu kalabalık kurallarla yormayan, ilk saniyeden anlaşılır ve uzun süre akılda kalan deneyimler kuruyoruz.</p></div>
-  <div class="grid"><article class="tile"><div class="tile-num">01</div><h3>Net Mekanik</h3><p>Oyuncunun hızla kavradığı, ustalaştıkça derinleşen oyun sistemleri.</p></article><article class="tile"><div class="tile-num">02</div><h3>Gerçek Rekabet</h3><p>Arkadaşları aynı ekranda buluşturan, paylaşmaya değer mücadeleler.</p></article><article class="tile"><div class="tile-num">03</div><h3>Her Yerde Oyun</h3><p>Web ve mobil platformlarda kolayca erişilen akıcı deneyimler.</p></article></div>
+  <div class="section-head"><div><div class="eyebrow" data-i18n="home_approach_eyebrow">Bizim oyun anlayışımız</div><h2 data-i18n-html="home_approach_h2">Fikirden<br>rekabete.</h2></div><p data-i18n="home_approach_p">Oyuncuyu kalabalık kurallarla yormayan, ilk saniyeden anlaşılır ve uzun süre akılda kalan deneyimler kuruyoruz.</p></div>
+  <div class="grid"><article class="tile"><div class="tile-num">01</div><h3 data-i18n="home_t1_h">Net Mekanik</h3><p data-i18n="home_t1_p">Oyuncunun hızla kavradığı, ustalaştıkça derinleşen oyun sistemleri.</p></article><article class="tile"><div class="tile-num">02</div><h3 data-i18n="home_t2_h">Gerçek Rekabet</h3><p data-i18n="home_t2_p">Arkadaşları aynı ekranda buluşturan, paylaşmaya değer mücadeleler.</p></article><article class="tile"><div class="tile-num">03</div><h3 data-i18n="home_t3_h">Her Yerde Oyun</h3><p data-i18n="home_t3_p">Web ve mobil platformlarda kolayca erişilen akıcı deneyimler.</p></article></div>
 </section>
 </main>
-<nav class="dock" id="dock" aria-label="Ana menü"></nav><footer class="shell">© <span id="year"></span> AB Gaming Studios. Tüm hakları saklıdır.</footer>
-<script src="assets/site.js?v=https1"></script>
-<script src="assets/hero.js?v=3"></script>
+<nav class="dock" id="dock" data-i18n-aria="dock_aria" aria-label="Ana menü"></nav>
+<footer class="shell">© <span id="year"></span> <span data-i18n="footer_rights">AB Gaming Studios. Tüm hakları saklıdır.</span></footer>
+<script src="assets/site.js?v=i18n1"></script>
+<script src="assets/hero.js?v=4"></script>
 <script type="module" src="assets/arcade.js?v=30"></script>
 </body></html>

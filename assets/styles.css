@@ -20,3 +20,12 @@
 
 .brand{gap:0}.brand-logo{display:block;height:48px;width:auto;max-width:min(320px,70vw);object-fit:contain;image-rendering:auto}.brand-mark{display:none}
 @media(max-width:520px){.brand-logo{height:38px}.top .brand span{font-size:15px}}
+.header-right{display:flex;align-items:center;gap:18px}
+.lang-switch{display:flex;align-items:center;gap:10px;color:#7a8088;font:600 13px/1 'DM Sans',sans-serif;letter-spacing:.14em}
+.lang-switch span{opacity:.55}
+.lang-btn,.ab-lang{appearance:none;border:0;background:transparent;color:#7a8088;font:inherit;letter-spacing:inherit;cursor:pointer;padding:4px 0;transition:color .2s}
+.lang-btn:hover,.ab-lang:hover{color:#d2d6db}
+.lang-btn.is-active,.ab-lang.is-active{color:var(--lime);text-shadow:0 0 12px rgba(217,255,67,.35)}
+.lang-btn:focus-visible,.ab-lang:focus-visible{outline:1px solid var(--lime);outline-offset:4px}
+@media(max-width:900px){.header-right .status{display:none}}
+@media(max-width:520px){.lang-switch{font-size:12px;gap:8px}}
