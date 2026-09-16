@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" role="img" aria-label="AB Gaming Studios">
+  <title>AB Gaming Studios</title>
+  <defs>
+    <linearGradient id="abFill" x1="36" y1="18" x2="210" y2="282" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset=".48" stop-color="#efefef"/>
+      <stop offset="1" stop-color="#b5b5b5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- AB monogram -->
+  <g transform="translate(8 6)">
+    <path fill="url(#abFill)" fill-rule="evenodd" d="
+      M28 14
+      H118
+      C168 14 202 46 202 94
+      C202 128 182 152 150 160
+      C186 168 214 196 214 238
+      C214 286 174 322 116 322
+      H28
+      V14
+      Z
+
+      M76 72
+      V138
+      H116
+      C142 138 158 122 158 104
+      C158 86 142 72 116 72
+      H76
+      Z
+
+      M76 186
+      V260
+      H122
+      C152 260 170 242 170 218
+      C170 194 152 186 122 186
+      H76
+      Z
+
+      M64 322
+      L126 36
+      H162
+      L224 322
+      H178
+      L164 266
+      H114
+      L100 322
+      H64
+      Z
+
+      M122 214
+      H158
+      L140 146
+      L122 214
+      Z"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g font-family="Space Grotesk, Montserrat, Avenir Next, Helvetica Neue, Arial, sans-serif" fill="#f4f1ea">
+    <text x="268" y="152" font-size="98" font-weight="700" letter-spacing="-2.8">Gam</text>
+    <!-- custom i -->
+    <rect x="443" y="98" width="14" height="54" rx="2" fill="#f4f1ea"/>
+    <circle cx="450" cy="84" r="10" fill="#d9ff43"/>
+    <text x="466" y="152" font-size="98" font-weight="700" letter-spacing="-2.8">ng</text>
+    <text x="272" y="210" font-size="34" font-weight="600" letter-spacing="16">STUDIOS</text>
+  </g>
+</svg>

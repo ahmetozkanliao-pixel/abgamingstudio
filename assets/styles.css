@@ -22,5 +22,5 @@
 .arcade-word-right{text-align:left}
 @media(max-width:760px){.studio-hero .studio-stage{grid-template-columns:auto minmax(0,1fr) auto;gap:6px}.arcade-word{font-size:clamp(13px,3.4vw,20px)}.arcade-view{min-height:420px;height:min(58vh,520px)}}
 
-.brand{gap:0}.brand-logo{display:block;height:42px;width:auto;max-width:min(260px,52vw)}.brand-mark{display:none}
+.brand{gap:0}.brand-logo{display:block;height:48px;width:auto;max-width:min(280px,58vw)}.brand-mark{display:none}
 @media(max-width:520px){.brand-logo{height:34px}.top .brand span{font-size:15px}}
