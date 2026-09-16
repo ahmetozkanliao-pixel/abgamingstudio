@@ -63,7 +63,7 @@
 .ab-hero .ab-keywords{margin-top:9vh;display:flex;flex-direction:column;gap:7px;color:#777c80;font-size:8px;letter-spacing:4px}
 .ab-hero .ab-keywords i,
 .ab-hero .ab-manifesto i{display:block;width:35px;height:2px;background:var(--ab-lime);margin-bottom:9px}
-.ab-hero .ab-manifesto{position:absolute;top:42vh;left:73%;color:#777c80;font-size:8px;letter-spacing:3px;line-height:2;white-space:nowrap;display:flex;gap:20px;align-items:flex-start;z-index:6}
+.ab-hero .ab-manifesto{position:absolute;top:auto;bottom:12vh;left:auto;right:8%;color:#777c80;font-size:8px;letter-spacing:3px;line-height:2;white-space:nowrap;display:flex;gap:20px;align-items:flex-start;z-index:6}
 
 .ab-hero .arcade-stage{
   position:absolute;left:38%;top:15%;width:28%;height:76%;z-index:8;perspective:1200px;
