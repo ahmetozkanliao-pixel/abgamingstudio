@@ -19,7 +19,7 @@
   const copy = {
     tr: {
       eyebrow: "BAĞIMSIZ OYUN STÜDYOSU",
-      title: "BİZ<br>YARATIRIZ<span>.</span>",
+      title: "BİZ<br>YAPA-<br>RIZ<span>.</span>",
       lead: "Rekabet, bağ kurmak<br>ve saf eğlence için oyunlar.",
       k1: "OYNA",
       k2: "KUR",
