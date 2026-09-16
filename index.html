@@ -1,14 +1,58 @@
 <!doctype html>
-<html lang="tr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AB Gaming Studios — Yeni Nesil Oyunlar</title><meta name="description" content="AB Gaming Studios; kolay öğrenilen, güçlü rekabet hissi yaratan ve tekrar tekrar oynanan dijital oyunlar geliştirir."><link rel="icon" href="favicon.png?v=5"><link rel="stylesheet" href="assets/styles.css?v=hero3"><script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"}}</script></head>
+<html lang="tr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AB Gaming Studios — Yeni Nesil Oyunlar</title><meta name="description" content="AB Gaming Studios; kolay öğrenilen, güçlü rekabet hissi yaratan ve tekrar tekrar oynanan dijital oyunlar geliştirir."><meta name="theme-color" content="#07090b"><link rel="icon" href="favicon.png?v=5"><link rel="stylesheet" href="assets/styles.css?v=hero4"><link rel="stylesheet" href="assets/hero.css?v=1"><script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"}}</script></head>
 <body>
-<header class="top shell"><a class="brand" href="./"><img class="brand-logo" src="assets/logo.png?v=6" alt="AB Gaming Studios"></a><span class="status">İstanbul'dan dünyaya</span></header>
 <main>
-<section class="hero studio-hero" aria-label="AB Gaming Studios">
-  <div class="hero-arena">
-    <img class="hero-backdrop" src="assets/hero-backdrop.jpg?v=2" alt="WE CREATE. Independent game studio. Games made for competition, connection and pure fun. YOU PLAY. 01 — Our first game: 3·2·1 The Arena. Web, iOS, Android.">
-    <div class="arcade-view" aria-label="3 boyutlu atari makinesi"></div>
-  </div>
+<section class="ab-hero" id="abHero" aria-label="AB Gaming Studios">
+  <div class="ab-hero__grid" aria-hidden="true"></div>
+  <div class="ab-hero__glow" aria-hidden="true"></div>
+  <div class="outline-letter outline-letter--a" aria-hidden="true">A</div>
+  <div class="outline-letter outline-letter--b" aria-hidden="true">B</div>
+
+  <header class="ab-hero__topbar">
+    <a class="ab-hero__brand" href="./"><img class="brand-logo" src="assets/logo.png?v=6" alt="AB Gaming Studios"></a>
+    <div class="ab-hero__location"><i></i>İstanbul’dan dünyaya</div>
+  </header>
+
+  <div class="coordinate coordinate--left">41.0082° N</div>
+  <div class="coordinate coordinate--right">28.9784° E</div>
+
+  <section class="ab-copy ab-copy--left">
+    <div class="ab-eyebrow"><span>INDEPENDENT GAME STUDIO</span><b></b></div>
+    <h1 class="ab-title">WE<br>CREATE<span>.</span></h1>
+    <p>Games made for competition,<br>connection and pure fun.</p>
+    <div class="ab-keywords"><i></i><span>PLAY</span><span>BUILD</span><span>COMPETE</span><span>TOGETHER</span></div>
+  </section>
+
+  <section class="arcade-stage" aria-label="3 boyutlu atari makinesi">
+    <div class="arcade-aura" aria-hidden="true"></div>
+    <div id="arcadeMount" class="arcade-mount arcade-view"></div>
+  </section>
+
+  <section class="ab-copy ab-copy--right">
+    <h2 class="ab-title-sm">YOU PLAY<span>.</span></h2>
+    <div class="ab-game">
+      <div class="ab-game__index"><strong>01</strong><i></i><span>OUR FIRST GAME</span></div>
+      <h3>3·2·1&nbsp;&nbsp;THE ARENA</h3>
+      <b class="ab-game__line"></b>
+      <div class="ab-platforms"><span>WEB</span><i>·</i><span>iOS</span><i>·</i><span>ANDROID</span></div>
+    </div>
+  </section>
+  <div class="ab-manifesto"><i></i><span>GOOD GAMES<br>BRIGHTER PEOPLE</span></div>
+
+  <svg class="connector connector--left" viewBox="0 0 360 100" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 15 H245 L330 85 H360"></path>
+    <rect x="350" y="76" width="10" height="10"></rect>
+  </svg>
+  <svg class="connector connector--right" viewBox="0 0 260 90" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 15 L55 65 H260"></path>
+    <rect x="0" y="10" width="10" height="10"></rect>
+  </svg>
+
+  <div class="cross cross--one" aria-hidden="true"></div>
+  <div class="cross cross--two" aria-hidden="true"></div>
+  <div class="cross cross--three" aria-hidden="true"></div>
 </section>
+
 <section class="section shell home-game">
   <div class="section-head"><div><div class="eyebrow">İlk oyunumuz</div><h2>3‑2‑1</h2></div><p>Futbol bilgisi, hız ve bire bir rekabet aynı oyunda. Web tarayıcı, App Store ve Google Play için geliştiriliyor.</p></div>
   <div class="game-showcase"><div class="game-mini"><div class="score"><span>OYUNCU 1</span><span>OYUNCU 2</span></div><div class="timer">03</div><div class="question">Cevabın hazır mı?</div></div><div class="game-showcase-copy"><div class="eyebrow">1v1 futbol bilgi oyunu</div><h3>Bilgine güveniyorsan, rakibini çağır.</h3><p class="muted">Aynı anda gelen sorular, saniyeler içinde verilen cevaplar ve maç sonuna kadar değişen skor.</p><div class="actions"><a class="btn primary" href="oyunlar/">3‑2‑1'i İncele →</a><span class="platform-inline">WEB · iOS · ANDROID</span></div></div></div>
@@ -18,6 +62,8 @@
   <div class="grid"><article class="tile"><div class="tile-num">01</div><h3>Net Mekanik</h3><p>Oyuncunun hızla kavradığı, ustalaştıkça derinleşen oyun sistemleri.</p></article><article class="tile"><div class="tile-num">02</div><h3>Gerçek Rekabet</h3><p>Arkadaşları aynı ekranda buluşturan, paylaşmaya değer mücadeleler.</p></article><article class="tile"><div class="tile-num">03</div><h3>Her Yerde Oyun</h3><p>Web ve mobil platformlarda kolayca erişilen akıcı deneyimler.</p></article></div>
 </section>
 </main>
-<nav class="dock" id="dock" aria-label="Ana menü"></nav><footer class="shell">© <span id="year"></span> AB Gaming Studios. Tüm hakları saklıdır.</footer><script src="assets/site.js?v=https1"></script>
-<script type="module" src="assets/arcade.js?v=29"></script>
+<nav class="dock" id="dock" aria-label="Ana menü"></nav><footer class="shell">© <span id="year"></span> AB Gaming Studios. Tüm hakları saklıdır.</footer>
+<script src="assets/site.js?v=https1"></script>
+<script src="assets/hero.js?v=1"></script>
+<script type="module" src="assets/arcade.js?v=30"></script>
 </body></html>
