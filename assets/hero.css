@@ -50,7 +50,7 @@
   font-family:'Barlow Condensed', 'Space Grotesk', sans-serif;
   margin:0;font-weight:900;line-height:.79;letter-spacing:-.045em;text-transform:uppercase;color:var(--ab-white);
 }
-.ab-hero .ab-title{font-size:clamp(90px,10.8vw,205px)}
+.ab-hero .ab-title{font-size:clamp(72px,9.2vw,168px);line-height:.82}
 .ab-hero .ab-title-sm{font-size:clamp(72px,7.4vw,140px);white-space:nowrap}
 .ab-hero .ab-title span,
 .ab-hero .ab-title-sm span{color:var(--ab-lime)}
