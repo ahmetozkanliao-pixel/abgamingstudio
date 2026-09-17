@@ -29,3 +29,5 @@
 .lang-btn:focus-visible,.ab-lang:focus-visible{outline:1px solid var(--lime);outline-offset:4px}
 @media(max-width:900px){.header-right .status{display:none}}
 @media(max-width:520px){.lang-switch{font-size:12px;gap:8px}}
+
+.game-list-card+.game-list-card{margin-top:28px}
