@@ -31,3 +31,4 @@
 @media(max-width:520px){.lang-switch{font-size:12px;gap:8px}}
 
 .game-list-card+.game-list-card{margin-top:28px}
+.policy{max-width:760px;padding-bottom:48px}.policy article{padding:22px 0;border-bottom:1px solid var(--line)}.policy article:last-child{border:0}.policy h2{font:700 22px 'Space Grotesk';margin:0 0 10px}.policy p{color:var(--muted);line-height:1.7;margin:0}.policy a{color:var(--cyan);text-decoration:underline;text-underline-offset:3px}
